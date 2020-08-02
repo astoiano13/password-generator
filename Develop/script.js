@@ -26,7 +26,12 @@ if(confirm('Do you want special characters?')){
 console.log(numberOfcharacters, pickedLetterArr)
 
 for(var i = 0; i < numberOfcharacters; i++){
-  
+  var randomLetter = Math.floor(Math.random() * pickedLetterArr.length);
+  var randomSpecChar = Math.floor(Math.random() * pickedLetterArr[randomLetter].length);
+  var combo = pickedLetterArr[randomLetter][randomSpecChar]
+  characterArr.push(combo)
+
+  console.log(randomLetter, randomSpecChar, combo)
 }
 
 
