@@ -15,7 +15,7 @@ if(confirm('Do you want capital letters?')){
   pickedLetterArr.push(capital)
 }
 
-if(confirm('Do you want lowecase letters?')){
+if(confirm('Do you want lowercase letters?')){
   pickedLetterArr.push(lowercase)
 }
 
@@ -47,9 +47,8 @@ for(var i = 0; i < numberOfcharacters; i++){
 
 
 
-
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+
 
 // // Assignment Code
 // // var generateBtn = document.querySelector("#generate");
